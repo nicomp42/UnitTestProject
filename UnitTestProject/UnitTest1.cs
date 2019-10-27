@@ -1,6 +1,7 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
+
 namespace UnitTestProject
 {
     [TestClass]
@@ -9,6 +10,9 @@ namespace UnitTestProject
         [TestMethod]
         public void TestMethod1()
         {
+            Fruits.Apple myApple = new Fruits.Apple();
+            Assert.AreEqual(myApple.IsRotten(), false);
+
         }
     }
 }
