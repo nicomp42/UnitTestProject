@@ -60,6 +60,14 @@
       <Project>{08e2232e-8f73-4b45-8c8a-47124ddc6743}</Project>
       <Name>Apple</Name>
     </ProjectReference>
+    <ProjectReference Include="..\IWorm\IWorm.csproj">
+      <Project>{8afe1029-ae92-4d68-ac51-0118f0f730db}</Project>
+      <Name>IWorm</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Worm\Worm.csproj">
+      <Project>{ebee34a6-d454-4cd5-81a5-39af0e4479eb}</Project>
+      <Name>Worm</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

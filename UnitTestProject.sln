@@ -10,6 +10,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestProject", "UnitTest
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Apple", "Apple\Apple.csproj", "{08E2232E-8F73-4B45-8C8A-47124DDC6743}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IWorm", "IWorm\IWorm.csproj", "{8AFE1029-AE92-4D68-AC51-0118F0F730DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Worm", "Worm\Worm.csproj", "{EBEE34A6-D454-4CD5-81A5-39AF0E4479EB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,6 +28,14 @@ Global
 		{08E2232E-8F73-4B45-8C8A-47124DDC6743}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{08E2232E-8F73-4B45-8C8A-47124DDC6743}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{08E2232E-8F73-4B45-8C8A-47124DDC6743}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8AFE1029-AE92-4D68-AC51-0118F0F730DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AFE1029-AE92-4D68-AC51-0118F0F730DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AFE1029-AE92-4D68-AC51-0118F0F730DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AFE1029-AE92-4D68-AC51-0118F0F730DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBEE34A6-D454-4CD5-81A5-39AF0E4479EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBEE34A6-D454-4CD5-81A5-39AF0E4479EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBEE34A6-D454-4CD5-81A5-39AF0E4479EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBEE34A6-D454-4CD5-81A5-39AF0E4479EB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

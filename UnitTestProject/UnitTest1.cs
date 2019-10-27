@@ -1,6 +1,7 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-
+using WormNamespace;
+using IWormNamespace;
 
 namespace UnitTestProject
 {
@@ -10,7 +11,8 @@ namespace UnitTestProject
         [TestMethod]
         public void TestMethod1()
         {
-            Fruits.Apple myApple = new Fruits.Apple();
+            Worm worm = new Worm();
+            Fruits.Apple myApple = new Fruits.Apple(worm);  // Dependency Injection
             Assert.AreEqual(myApple.IsRotten(), false);
 
         }
